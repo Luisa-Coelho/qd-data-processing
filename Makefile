@@ -27,7 +27,7 @@ OPENSEARCH_PORT2 ?= 9300
 OPENSEARCH_CONTAINER_NAME ?= queridodiario-opensearch
 APACHE_TIKA_CONTAINER_NAME ?= queridodiario-apache-tika-server
 # Backend and API
-FULL_PROJECT ?= false
+FULL_PROJECT ?= true
 API_PORT ?= 8080
 BACKEND_PORT ?= 8000
 
